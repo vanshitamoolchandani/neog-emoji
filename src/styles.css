@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #004380;
+  --off-white: #f3f4f6;
+  --dark-red: #8b132f;
+}
+
+#f9fac3 .App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.heading-alignc {
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list-inline {
+  display: inline;
+  text-align: right;
+  padding: 1rem;
+}
+
+.list-nobullets {
+  list-style: none;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  border-top: 1rem;
+  color: white;
+  padding-left: 1rem;
+  padding-top: 0.1rem;
+  padding-inline-start: 0px;
+  padding-bottom: 1rem;
+}
+.footer .link {
+  color: white;
+}
