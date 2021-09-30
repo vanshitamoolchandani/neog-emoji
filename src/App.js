@@ -40,7 +40,7 @@ export default function App() {
     var meaning = emojiDictionary[userInput];
 
     if (meaning === undefined) {
-      meaning = "we don't have this in our database";
+      meaning = "Emoji Not Found! Try Again.";
     }
     setMeaning(meaning); // react call to show output
   }
